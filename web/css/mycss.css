@@ -1,0 +1,452 @@
+﻿body
+{
+	margin: 0;
+}
+
+.font-warring
+{
+	color:red;
+	font-family: "微软雅黑";
+}
+
+.hl_padding_left
+{
+    padding-left: 18px;
+}
+
+.hl_padding_right
+{
+    padding-right: 18px;
+}
+
+.hl_icon_size:before
+{
+    font-size: 50px;
+}
+
+.hl_text_gray
+{
+    color: GrayText;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.hl_text_align_left
+{
+    text-align: left;
+}
+
+.hl_text_title
+{
+    font-size: 20px;
+}
+
+.hl_text_info
+{
+    margin-top: .77em;
+    margin-bottom: .3em;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #888;
+    font-size: 14px;
+}
+
+.hl_area_gray
+{
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+}
+
+.hl_div_phone_num
+{
+    padding-top: 10px;
+    font-size: 18px;
+    height: 32px;
+    background-color: White;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+}
+
+.hl_div_money_num
+{
+    padding-top: 10px;
+    width: 70%;
+    font-size: 18px;
+    height: 32px;
+    background-color: White;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    float: left;
+}
+
+.hl_div_money_right
+{
+    padding-top: 10px;
+    font-size: 18px;
+    height: 32px;
+    background-color: White;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.hl_div_data_left
+{
+    width: 70%;
+    font-size: 14px;
+    height: 36px;
+    background-color: White;
+    border-bottom: 1px solid #DDDDDD;
+    float: left;
+    padding-top: 10px;
+}
+
+.hl_div_data_right
+{
+    width: 30%;
+    font-size: 14px;
+    height: 41px;
+    background-color: White;
+    border-bottom: 1px solid #DDDDDD;
+    float: right;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.hl_div_money_list
+{
+    float: left;
+    width: 32%;
+}
+
+.hl_input_phone_num
+{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+    height: 1.41176471em;
+    line-height: 1.41176471;
+}
+
+.hl_input_money_num
+{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+    height: 1.41176471em;
+    line-height: 1.41176471;
+}
+
+.hl_button_phone_serch
+{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #3366FF;
+    height: 1.41176471em;
+    line-height: 1.41176471;
+    text-align: right;
+}
+
+.hl_button_data_right
+{
+    width: 80px;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 20px;
+    height: 1.41176471em;
+    line-height: 1.41176471;
+    text-align: center;
+    color: #04BE02;
+    border: 1px solid #04BE02;
+    margin-right: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.hl_button_data_right_selected
+{
+    width: 80px;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 20px;
+    height: 1.41176471em;
+    line-height: 1.41176471;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #04BE02;
+    margin-right: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.hl_button_mini
+{
+    width: 40px;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    font-size: 12px;
+    height: 1.7em;
+    line-height: 1.41176471;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #04BE02;
+    border-radius: 5px;
+}
+
+.hl_select
+{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #3366FF;
+    height: 1.41176471em;
+    line-height: 1.41176471;
+    text-align: right;
+}
+
+.hl_phone_cityinfo
+{
+    font-size: 12px;
+}
+
+.hl_orderinfo_check
+{
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+.hl_orderinfo_list
+{
+    width: 100%;
+    font-size: 14px;
+    background-color: #EEEFF3;
+    text-align: center;
+}
+
+.hl_orderinfo_info_right
+{
+    text-align: right;
+    color: #E08023;
+    height: 26px;
+}
+
+.hl_manager_table
+{
+    /*管理页面,表格样式*/
+    width: 100%;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #DCDCDC;
+    border-width: 1px;
+    margin: 5px 5px 5px 5px;
+}
+
+.hl_manager_table_row
+{
+    /*管理页面,表格行样式*/
+    height: 24px;
+    font-size: 12px;
+}
+
+    .hl_manager_table_row img
+    {
+        max-height: 90px;
+        max-width: 800px;
+    }
+
+    .hl_manager_table_row .span
+    {
+        /*管理页面,表格行样式*/
+        padding-left: 10px;
+    }
+
+.hl_manager_table_head
+{
+    /*管理页面,表格头样式*/
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    height: 28px;
+    background-color: #DCDCDC;
+}
+
+.hl_manager_table_row_space
+{
+    /*管理页面,表格空行样式*/
+    height: 1px;
+    background-color: #DCDCDC;
+}
+
+.hl_manager_table_condition
+{
+    /*管理页面,条件查询样式*/
+    width: 100%;
+    background-color: #ededed;
+}
+
+.hl_manager_master
+{
+    /*母版页body样式*/
+    background-color: #F8F8FF;
+}
+
+.hl_manager_master_btn
+{
+    /*母版页,菜单按钮样式*/
+    height: 28px;
+    font-size: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+.hl_manager_textarea
+{
+    height: 150px;
+    width: 300px;
+    font-size: 12px;
+}
+
+.hl_manager_btn
+{
+    height: 26px;
+    font-size: 12px;
+}
+
+.hl_manager_drop
+{
+    /*管理端,下拉框默认样式*/
+    height: 30px;
+    font-size: 14px;
+}
+
+.hl_manager_balck
+{
+    /*管理端,红色*/
+    color: #000000;
+}
+
+.hl_manager_red
+{
+    /*管理端,红色*/
+    color: #FF3333;
+}
+
+.hl_manager_green
+{
+    /*管理端,绿色*/
+    color: #009933;
+}
+
+.hl_manager_top_btn
+{
+    height: 35px;
+    font-size: 14px;
+    width: 148px;
+    line-height: 35px;
+    color: #777777;
+    background-color: #ededed;
+    font-weight: normal;
+    font-family: Arial;
+    background: -webkit-gradient(linear, left top, left bottom, color-start(0.05, #ededed), color-stop(1, #f5f5f5));
+    background: -moz-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+    background: -o-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+    background: linear-gradient(to bottom, #ededed 5%, #f5f5f5 100%);
+    background: -webkit-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= '#ededed', endColorstr= '#f5f5f5',GradientType=0);
+    border: 0px solid #dcdcdc;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hl_manager_div_top
+{
+    height: 40px;
+    background-color: #4682B4;
+}
+
+.hl_manager_div_top_id
+{
+    float: right;
+    color: White;
+    padding-right: 15px; /*line-height: 35px;*/
+    padding-top: 10px;
+}
+
+.hl_manager_div_left
+{
+    float: left;
+    width: 150px;
+}
+
+.hl_manager_div_right
+{
+    margin-left: 150px;
+    border-left-style: solid;
+    border-left-color: #777777;
+    border-left-width: 1px;
+    padding: 5px 5px 5px 5px;
+}
+
+.hl_manager_div_right_place
+{
+    /*管理端,当前位置*/
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.hl_manger_div_right_content
+{
+    /*管理端右侧内容*/ /*width: 100%;*/
+}
+
+.hl_manger_div_right_condition
+{
+    /*管理端右侧条件*/ /*width: 100%;*/
+}
+
+.hl_manger_div_right_total
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hl_manger_div_right_list
+{
+    /*管理端右侧列表*/ /*width: 100%;*/
+    padding-top: 15px;
+}
+
+.hl_manager_btn_exit
+{
+    color: white;
+    font-size: 14px;
+    height: 30px;
+    border-color: rgba(255,255,255,0.1);
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom:5px;
+    background-color: rgba(255,255,255,0.1);
+}

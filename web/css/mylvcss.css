@@ -1,0 +1,361 @@
+﻿/*旅游前台样式*/
+
+body
+{
+    font-family: Microsoft YaHei,SimHei,SimSun,sans-serif;
+    font-size: 14px;
+}
+/*div主体 最外层框架*/
+.lv_div_main
+{
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+    overflow: hidden;
+}
+    /*div主体内img ADimg*/
+    .lv_div_main img
+    {
+        /*max-width: 100%;*/
+        width: 100%;
+        max-height: 80px;
+    }
+/*div主内容 收缩居中*/
+.lv_div_content
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*div 条件区*/
+.lv_div_condition
+{
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    /*div条件区 加边框*/
+    .lv_div_condition.lv_div_border
+    {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cccccc;
+    }
+    /*div条件区 内部div换行间隔*/
+    .lv_div_condition div
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*条件区文字*/
+    .lv_div_condition span
+    {
+    }
+    /*条件区 下拉框*/
+    .lv_div_condition select
+    {
+        min-width: 40px;
+        max-width: 100px;
+        height: 24px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        -webkit-appearance: none;
+    }
+    /*条件区 文本框 */
+    .lv_div_condition input[type=text]
+    {
+        min-width: 80px;
+        max-width: 300px;
+        width: 20%;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*条件区 按钮 */
+    .lv_div_condition input[type=submit]
+    {
+        height: 24px;
+        max-width: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #fff;
+        border: none;
+        font-family: Microsoft YaHei,SimHei,SimSun,sans-serif;
+        font-size: 14px;
+    }
+    /*条件区查询按钮*/
+    .lv_div_condition #btnQuery
+    {
+        /*float: right;*/
+        color: #fff;
+        background-color: #5eb95e;
+        border-color: #5eb95e;
+        width: 50px;
+    }
+/*信息区*/
+.lv_div_message
+{
+    text-align: center;
+    padding: 50px;
+    color: #808080;
+}
+/*查询列表区*/
+.lv_div_list
+{
+    margin-top: 15px;
+    text-align: left;
+}
+    /*查询区 div标签*/
+    .lv_div_list .row
+    {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-color: #cccccc;
+    }
+    /*查询列表区 a标签*/
+    .lv_div_list a
+    {
+        color: black;
+        display: block;
+    }
+    /*查询区 类name*/
+    .lv_div_list .name
+    {
+        color: #cc0099;
+        padding-left: 5px;
+    }
+    /*查询区 类area*/
+    .lv_div_list .area
+    {
+        padding-left: 10px;
+        color: #666666;
+    }
+    /*查询列表区 类money*/
+    .lv_div_list .money
+    {
+        float: right;
+        padding-right: 5px;
+    }
+    /*查询列表区 类.show 非折叠展示*/
+    .lv_div_list .show
+    {
+        display: block;
+    }
+    /*查询列表区 类fold 折叠*/
+    .lv_div_list .fold
+    {
+        display: none;
+        background-color: #F8F8FF;
+        overflow: hidden;
+    }
+        /*查询列表区 类fold 内部分组div*/
+        .lv_div_list .fold div
+        {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+/*文本区*/
+.lv_div_text
+{
+    margin-top: 10px;
+    text-align: left;
+}
+    /*折叠区 伸缩按钮区*/
+    .lv_div_text .lv_div_morecon
+    {
+        float: right;
+        margin-right: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+        color: #0000ff;
+        /*border: solid 1px #b7b7b7;
+        border-radius: 5px;*/
+    }
+    /*折叠区*/
+    .lv_div_text .lv_div_fold
+    {
+        text-align: left;
+        height: 20px;
+        overflow: hidden;
+        color: #666666;
+    }
+
+        .lv_div_text .lv_div_fold img
+        {
+            max-height: 300px;
+            max-width: 400px;
+        }
+
+
+
+/*表格*/
+.lv_table
+{
+    width: 100%;
+}
+    /*表格 头*/
+    .lv_table thead
+    {
+        background-color: #cccccc;
+    }
+        /*表格 头 th */
+        .lv_table thead th
+        {
+            height: 30px;
+            padding-left: 5px;
+            text-align: left;
+        }
+        /*表格 第二组*/
+        .lv_table thead .th2
+        {
+            width: 20%;
+            max-width: 150px;
+            min-width: 100px;
+            text-align: center;
+        }
+    /*表格 尾*/
+    .lv_table tfoot
+    {
+        text-align: right;
+        background-color: #ff6a00;
+    }
+        /*表格 尾 文字*/
+        .lv_table tfoot span
+        {
+            padding-right: 20px;
+        }
+    /*表格 体*/
+    .lv_table tbody
+    {
+        background-color: #e7e7e7;
+    }
+        /*表格 体 行*/
+        .lv_table tbody tr
+        {
+            height: 30px;
+        }
+        /*表格 体 span*/
+        .lv_table tbody td span
+        {
+            text-align: left;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        /*表格 div*/
+        .lv_table tbody div
+        {
+            background-color: #F8F8FF;
+            width: 100%;
+        }
+        /*表格 折叠内容*/
+        .lv_table tbody .lv_div_fold
+        {
+            display: none;
+        }
+
+        /*表格 折叠内容 p*/
+        .lv_table tbody p
+        {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            color: #0000ff;
+            float: right;
+        }
+        /*表格 下拉框*/
+        .lv_table tbody select
+        {
+            height: 20px;
+            width: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            -webkit-appearance: none;
+        }
+/*内嵌表格*/
+.lv_table2
+{
+    background-color: #F8F8FF;
+}
+    /* 内嵌表格行 */
+    .lv_table2 tr
+    {
+        background-color: #F8F8FF;
+        text-align: left;
+        vertical-align: top;
+        height: 20px !important;
+    }
+    /* 内嵌表格 左侧td样式 */
+    .lv_table2 .th
+    {
+        width: 10%;
+        max-width: 120px;
+        min-width: 80px;
+        padding-left: 5px;
+    }
+    /* 内嵌表格 span样式 强制覆盖 */
+    .lv_table2 span
+    {
+        padding-left: 0px !important;
+    }
+/*输入区*/
+.lv_div_enter
+{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+    .lv_div_enter span
+    {
+        padding-top: 5px;
+    }
+    /*输入区 平分左侧*/
+    .lv_div_enter .left
+    {
+        width: 35%;
+        text-align: right;
+        float: left;
+    }
+    /*输入区 平分右侧*/
+    .lv_div_enter .right
+    {
+        width: 65%;
+        text-align: left;
+        float: right;
+    }
+/*号码型输入框*/
+.lv_input_phone
+{
+    width: 100px;
+}
+/*提交*/
+.lv_div_submit
+{
+    clear: both;
+    padding-top: 15px;
+}
+/*条款*/
+.lv_div_clause
+{
+    text-align: left;
+}
+/*条款 内容*/
+.lv_div_clause_info
+{
+    overflow: hidden;
+    height: 40px;
+}
+/*条款 更多按钮*/
+.lv_div_clause_more
+{
+    text-align: center;
+    color: #0000ff;
+}
